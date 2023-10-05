@@ -33,20 +33,33 @@ p{
 }
 
 
-.title {
+.title {font-size: 30px;
+    font-weight: 100;
     /*Step 8: Style .title class*/
 
 }
 
-.jokeAPI-background{
+.jokeAPI-background{background-color: pink;
     /*Step 10: Change Background Color to rgba(218, 248, 255, 255)*/
 }
 
 .container {
-    /*Step 12: Style .container class */
+    /*Step 12: Style .container class */background-color: white;
+    padding: 4rem;
+    border-radius: 20px;
+text-align: center;
+box-shadow: 10px 10px 10px 10px red;
+
+
 }       
 
-button {
+button {background-color: purple;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    border:none;
+    cursor: pointer;
+
     /*Step 14: Style button class */
 }
 
